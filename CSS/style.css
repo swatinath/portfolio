@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+body{
+    background-color: rgb(227, 224, 224);
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 13, 253, 0.532);
+}
+.image{
+    width: 150px;
+    
+}
+.container{
+    margin: 100px 200px;
+    padding: 25px;
+    background-color: rgb(245, 247, 249);
+}
+.header{
+    display: flex;
+}
+.userinfo{
+    padding-left: 30px;
+}
+.username{
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+    
+}
+.designation{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.contact-info{
+    margin: 10px 0px;
+    padding: 8px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    opacity: 60%;
+}
+.ci{
+    padding: 3px 5px;
+}
+.br{
+    border-right: 1.5px solid gray;
+}
+.section{
+    margin: 19px 0px;
+}
+.section-heading{
+    background-color: rgb(186, 184, 184);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    padding: 3px 5px;
+}
+.text{
+    text-align: justify;
+}
+.aca{
+    width: 100%;
+    border: 1px solid rgb(107, 106, 106);
+    border-collapse: collapse ;
+}
+.aca th,
+.aca td{
+    border: 1px solid rgb(120, 119, 119);
+    padding: 8px;
+}
