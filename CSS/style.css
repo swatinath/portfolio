@@ -77,3 +77,77 @@ a{
     border: 1px solid rgb(120, 119, 119);
     padding: 8px;
 }
+.skills{
+    list-style-type: none;
+}
+.skills li{
+    margin: 3px 0px;
+}
+.skills h5{
+    font-size: 16px;
+}
+.skill{
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 2px 3px;
+    background-color: rgb(181, 180, 180);
+    color: rgb(254, 255, 255);
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project{
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #c2c2c2;
+}
+.project ul{
+    list-style-type: none;
+
+}
+.project li{
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.tech{
+    color: rgb(48, 48, 48);
+    font-weight: 600;
+}
+.int{
+    padding: 5px 8px;
+    margin: 3px;
+    border: 1px ;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 782px){
+    .container{
+        margin: 10px;
+    }
+    .project{
+        width: 100%;
+        height: auto;
+    }
+    .header{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .userinfo{
+        text-align: center;
+    }
+}
