@@ -54,7 +54,7 @@ body{
     background-color: rgb(249, 163, 92);
 }
 .card{
-    height: 230px;
+    height: 400px;
 }
 
 @media only screen and (max-width: 786px) {
