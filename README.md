@@ -1,4 +1,3 @@
-```markdown
 # 🌟 Portfolio Website 🌟
 
 Welcome to my portfolio website! This website showcases my work, interests, and achievements. It is built using HTML, CSS, JavaScript, and Bootstrap to provide a responsive and user-friendly experience.
@@ -78,4 +77,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 Thank you for visiting my portfolio website!
-```
